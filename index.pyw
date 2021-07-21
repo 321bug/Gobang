@@ -66,5 +66,5 @@ while True:
             pygame.quit()
         if box == "重新开始":
             sc.blit(board, (50, 50))
-            color = 1
+            color = 0
             core.init()
